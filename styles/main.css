@@ -262,13 +262,17 @@ img {
 FACT STYLES
 ======================*/
 #accordion {
-	margin: 10px 20px;
+	margin: 0 auto;
 	background: white;
+	width: 560px;
 }
 
 #accordion h3 {
 	background-color: rgba(135, 71, 255, 1);
 	border-bottom: 1px solid black;
+	text-align: center;
+    padding: 20px;
+	color: rgb(201, 187, 255);
 }
 
 #accordion p {
@@ -278,12 +282,12 @@ FACT STYLES
 .facts .fact-box {
 	background: white;
 	border-radius: 5px;
-	height: 100%;
+	height: 160px;
 }
 
 
 /*====================
-FACT STYLES
+FOOTER STYLES
 ======================*/
 .ftr {
 	background-color: rgba(135, 71, 255, 1);; 
