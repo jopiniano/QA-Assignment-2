@@ -10,7 +10,6 @@ jQuery(function($){
   // init Masonry
   var $grid = $('.grid').masonry({
     // options...
-    columnWidth: 80,
     itemSelector: '.grid-item'
   });
   // layout Masonry after each image loads
