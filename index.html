@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MDIA 1472 Final Project</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/reset.css">
+	<link rel="stylesheet" type="text/css" href="styles/flickity.css">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+	<header>
+        <div class="img-wrap">
+    		<a href="index.html" title="Home">
+                <img src="images/space-logo.png" alt="Space Logo">
+            </a>
+        </div>
+        <div class="burger-wrap">
+        	<button class="gn-trigger">
+            	<div class="burger"></div>
+        	</button>
+        </div>
+        <nav class="gn">
+            <ul class="gn-items">
+                <li><a href="#about" title="About">About</a></li>
+                <li><a href="#news" title="News">News</a></li>
+                <li><a href="#images" title="Images">Images</a></li>
+                <li><a href="#facts" title="Facts">Facts</a></li>
+                <li><a href="planets.html" title="Planets">Planets</a></li>
+            </ul>
+        </nav>
+	</header>
+	<main>
+		<section class="bnr">
+			<video class="video" autoplay loop muted>
+				<source src="images/space-vid.mp4" type="">
+			</video>
+			<div class="welcome">
+				<h1>Welcome to Space</h1>
+			</div>
+		</section>
+		<section id="about">
+			<div class="about container">
+				<h2>About</h2>
+				<p>This page is deticated to all things related to space. <br> We have a huge fascination of what outer space has to offer. <br>The great unknown and all its endless possibilities.</p>
+			</div>
+		</section>
+		<section id="news" class="news">
+			<h2 class="container">News</h2>
+			<div class="news-container article-slider">
+			    <article class="article-box">
+			        <h3>Astronomers spy record-breaking eruption on young sunlike star</h3>
+			        <a href="#">Read Now</a>
+			    </article>
+			    <article class="article-box">
+			        <h3>Hubble telescope spots a complex cloud of gas expanding into space</h3>
+			        <a href="#">Read Now</a>
+			    </article>
+			    <article class="article-box">
+			        <h3>SpaceX Falcon 9 rocket launches NASA's new IXPE X-ray space telescope</h3>
+			        <a href="#">Read Now</a>
+			    </article>
+			</div>
+		</section>
+		<section id="images" class="images">
+			<div class="gallery">
+				<h2 class="container">Images</h2>
+				<div class="grid">
+					<div class="grid-sizer"></div>
+					<div class="grid-item">
+						<img src="images/space-01.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-02.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-03.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-04.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-05.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-06.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-07.jpg" alt="">
+					</div>
+					<div class="grid-item">
+						<img src="images/space-08.jpg" alt="">
+					</div>
+				</div>	
+			</div>
+		</section>
+		<section id="facts" class="facts">
+			<h2 class="container">Fun Facts</h2>
+			<div id="accordion">
+			  <h3>Fact 1</h3>
+			  <div class="fact-box">
+			    <p>A FULL NASA SPACE SUIT COSTS $12,000,000</p>
+			    <br>
+			    <p>While the entire suit costs a cool $12m, 70% of that cost is for the backpack and control module. However, the space suits that NASA uses were built in 1974.  If these were priced by today's pricing, they would cost an estimated 150 million dollars!</p>
+			  </div>
+			  <h3>Fact 2</h3>
+			  <div>
+			    <p>ONE DAY ON VENUS IS LONGER THAN ONE YEAR</p>
+			    <br>
+			    <p>Venus has a slow axis rotation which takes 243 Earth days to complete its day. The orbit of Venus around the Sun is 225 Earth days, making a year on Venus 18 days less than a day on Venus.</p>
+			  </div>
+			  <h3>Fact 3</h3>
+			  <div>
+			    <p>SPACE IS COMPLETELY SILENT</p>
+			    <br>
+			    <p>There is no atmosphere in space, which means that sound has no medium or way to travel to be heard.</p>
+			  </div>
+			</div>
+		</section>
+	</main>	
+	<footer class="ftr">
+		<p>&copy; SPACE</p>
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="scripts/flickity.js"></script>
+	<script src="scripts/scroll-lock.js"></script>
+	<script src="scripts/jquery-ui.min.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+</html>
