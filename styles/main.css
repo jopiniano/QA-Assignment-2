@@ -179,6 +179,10 @@ BURGER STYLES
 /*====================
 BANNER STYLES
 ======================*/
+.bnr {
+	position: relative;
+}
+
 .video {
 	z-index: -1;
 	width: 100vw;
@@ -186,12 +190,15 @@ BANNER STYLES
 
 .welcome {
 	position: absolute;
-	top: 120px;
-	left: 40px;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	width: 300px;
+    text-align: center;
 }
 
 .bnr h1 {
-	font-size: 30px;
+	font-size: 20px;
 	color: #fff;
 }
 /*====================
@@ -291,23 +298,27 @@ FACT STYLES
 MEDIA QUERY
 ======================
 -----------------------*/
+@media (min-width: 425px) {
+	.bnr h1 {
+		font-size: 30px;
+	}
+}
+
 @media (min-width: 576px) {
 
-	.welcome {
-	    top: 230px;
-	    left: 160px;
-	    
-	}	
 	.welcome h1 {
 		font-size: 35px;
 	}
 }
 
 @media (min-width: 768px) {
-
 	.welcome {
-	    top: 280px;
-	    left: 230px;
+		width: 400px;
+	}
+	
+	.bnr h1 {
+		font-size: 400px;
+		color: #fff;
 	}
 
 	.welcome h1 {
@@ -347,22 +358,20 @@ MEDIA QUERY
 	.grid-item { 
 		width: 25%;
 	}
-
-	.welcome {
-	    top: 350px;
-	    left: 360px;
-	}
 }
 
 @media (min-width: 1200px) {
 	
-	.gn a:hover {
-		font-size: 20px;
+	.welcome {
+		width: 500px;
+	}
+	
+	.bnr h1 {
+		font-size: 500px;
 	}
 
-	.welcome {
-	    top: 400px;
-	    left: 440px;
+	.gn a:hover {
+		font-size: 20px;
 	}
 
 	.welcome h1 {
@@ -372,13 +381,11 @@ MEDIA QUERY
 }
 
 @media (min-width: 1440px) {
-
 	.welcome {
-	    top: 500px;
-	    left: 550px;
+		width: 800px;
 	}
 
 	.welcome h1 {
-		font-size: 100px;
+		font-size: 80px;
 	}
 }
