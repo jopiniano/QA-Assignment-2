@@ -354,6 +354,9 @@ MEDIA QUERY
 }
 
 @media (min-width: 992px) {
+	.gn a {
+		transition: all .3s ease-in-out;
+	}
 
 	.grid-sizer,
 	.grid-item { 
