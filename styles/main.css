@@ -264,7 +264,7 @@ FACT STYLES
 #accordion {
 	margin: 0 auto;
 	background: white;
-	width: 560px;
+	max-width: 560px;
 }
 
 #accordion h3 {
@@ -282,9 +282,11 @@ FACT STYLES
 .facts .fact-box {
 	background: white;
 	border-radius: 5px;
-	height: 160px;
 }
 
+.fact-box {
+	height: 200px;
+}
 
 /*====================
 FOOTER STYLES
