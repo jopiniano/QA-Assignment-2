@@ -12,7 +12,7 @@ body {
 .container {
 	text-align: center;
 	align-items: center;
-	padding: 20px;
+	padding: 50px;
 }
 
 .burger-btn {
@@ -62,7 +62,8 @@ a {
 
 h2 {
 	font-size: 25px;
-	padding-bottom: 5px;
+	padding: 20px 0;
+	text-align: center;
 }
 /*====================
 HEADER STYLES
@@ -214,7 +215,7 @@ ABOUT STYLES
 NEWS STYLES
 ======================*/
 .news {
-	margin: 2px;
+	margin: 20px;
 }
 
 .news h3 {
@@ -234,11 +235,11 @@ NEWS STYLES
     display: none;
 }
 
-/* .article-slider .article-box { 
+.article-slider .article-box { 
     width: 80%;
     min-height: 100%;
     margin-left: 20px;
-} */
+}
 
 /*====================
 GALLERY STYLES
