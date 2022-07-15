@@ -75,11 +75,11 @@ header {
     will-change: top;
     z-index: 999;
     background-color: rgba(135, 71, 255, 1);
-    padding: 10px 20px;
+    padding: 20px;
 }
 
 .img-wrap img {
-	width: 100px;
+	width: 80px;
 }
 /*====================
 NAV STYLES
@@ -133,8 +133,8 @@ BURGER STYLES
 .burger {
 	position: absolute;
 	background: white; 
-	width: 50px;
-	height: 5px; 
+	width: 30px;
+	height: 4px; 
 	top: 50%;
 }
 
@@ -144,17 +144,17 @@ BURGER STYLES
 	display: block;
 	position: absolute;
 	background: white;
-	width: 50px;
-	height: 5px;
+	width: 30px;
+	height: 4px;
 	right: 0;
 }
 
 .burger:before {
-	bottom: 14px;
+	bottom: 12px;
 }
 
 .burger:after {
-	top: 14px;
+	top: 12px;
 }
 
 .burger,
